@@ -1,0 +1,21 @@
+# Secrets (API keys)
+.env
+*.env
+
+# Chroma vector database (rebuilt from the PDFs)
+chroma_db/
+
+# PDFs uploaded through the API
+uploads/
+
+# Python compiled bytecode files
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+backend-map.html
+
+design.md
